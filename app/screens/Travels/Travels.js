@@ -60,7 +60,8 @@ const styles = StyleSheet.create({
         fontWeight:'bold',
         fontSize: 20,
         marginBottom:12,
-        textAlign:'center'
+        textAlign:'center',
+        backgroundColor: '#EC7063'
     },
     btnContainer:{
         position: 'absolute',
