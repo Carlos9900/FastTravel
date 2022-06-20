@@ -15,18 +15,24 @@ export default function Main(){
             style={styles.stretch}
             source={require('../../assets/img/img333.jpg')}
         />
+        <Image
+            style={styles.stretch}
+            source={require('../../assets/img/img333.jpg')}
+        />
     </View>
+    
     )
+    
 }
 
 const styles = StyleSheet.create({
     viewBody:{
         flex:1,
-        backgroundColor:'#5B2C6F'
+        backgroundColor:'#00FF7F'
     },
     stretch:{
-        width: '100%',
-        height: 300,
+        width: '10%',
+        height: 100,
         resizeMode: 'contain',
         marginBottom: 5
     },
@@ -35,7 +41,8 @@ const styles = StyleSheet.create({
         fontSize: 20,
         marginBottom:12,
         textAlign:'center',
-        backgroundColor: '#EC7063'
+        backgroundColor: '#778899',
+        fontFamily: 'Helvética'
     }
    
 })
