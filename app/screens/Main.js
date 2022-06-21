@@ -38,8 +38,8 @@ const styles = StyleSheet.create({
     },
     title:{
         fontWeight:'bold',
-        fontSize: 20,
-        marginBottom:12,
+        fontSize: 30,
+        marginBottom:14,
         textAlign:'center',
         backgroundColor: '#778899',
         fontFamily: 'Helvética'
