@@ -31,10 +31,12 @@ const styles = StyleSheet.create({
         backgroundColor:'#00FF7F'
     },
     stretch:{
-        width: '10%',
+        width: '90%',
         height: 100,
         resizeMode: 'contain',
-        marginBottom: 110
+        marginBottom: 110,
+        marginLeft:'250px',
+        borderRadius:'23px'
     },
     title:{
         fontWeight:'bold',
@@ -43,6 +45,10 @@ const styles = StyleSheet.create({
         textAlign:'center',
         backgroundColor: '#778899',
         fontFamily: 'Helvética'
+    },
+    Image:{
+        width: '250px',
+        borderRadius:'23px'
     }
    
 })
